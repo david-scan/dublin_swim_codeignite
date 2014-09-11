@@ -1,0 +1,28 @@
+Here is my Server side project associated with the JQM project I submitted
+
+This service is for communication between the Dublin Swimming App and the server.</p>
+
+		the link to access info on sites with DART services:
+		localhost/serv_sde/index.php/dubswim/useDart
+
+		to access info on sites with both good High & Low tide swimming:
+		localhost/serv_sde/index.php/dubswim/bestTide
+
+Main Files:'dubswim.php'(controller)(application\controllers\dubswim.php),
+            'dubswim_view.php'(main view)(application\views\dubswim_view.php),
+            'dubswim_model.php'(model file)
+            These 3 files above also contain comments and references
+
+            changes also made to 'database.php', 'routes.php' and 'config.php' 
+
+
+		Ive also done a controller and view(dubswim_hello.php & hello_message.php)
+		for a new default route in config/routes.php
+		to replace the welcome page and welcome message. These are viewable 
+		by the link:
+
+		localhost/serv_sde/
+
+		(Oddly I couldn't use php files with 'comments' in them as default route file)
+
+
